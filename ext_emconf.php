@@ -11,8 +11,8 @@
 ########################################################################
 
 $EM_CONF[$_EXTKEY] = array(
-	'title' => 'Bootstrap Theme',
-	'description' => 'Theme to use Twitter Bootstrap',
+	'title' => 'Foundation Theme',
+	'description' => 'Theme to use Zurb Foundation 5',
 	'category' => 'templates',
 	'shy' => 0,
 	'version' => '1.0.2',
