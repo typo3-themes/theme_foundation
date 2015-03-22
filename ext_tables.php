@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * Configuration of theme_bootstrap
+ * Configuration of theme_foundation
  *
  */
 //if(!\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('themes')) {
