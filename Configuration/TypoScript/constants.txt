@@ -5,13 +5,13 @@
 # http://wiki.typo3.org/TypoScript_Constants
 #############################################
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:themes_gridelements/Configuration/TypoScript/constants.txt">
-<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_bootstrap/Configuration/TypoScript/Library" extensions="constantsts">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:theme_foundation/Configuration/TypoScript/Library" extensions="constantsts">
 
 # Extensions
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_bootstrap/Resources/Private/Extensions/News/TypoScript/constants.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:theme_foundation/Resources/Private/Extensions/News/TypoScript/constants.txt">
 
 # Base configuration
-themes.configuration.siteName = Bootstrap Theme
+themes.configuration.siteName = foundation Theme
 
 lib.content.cssMap.responsive.row {
 	default-row = row
