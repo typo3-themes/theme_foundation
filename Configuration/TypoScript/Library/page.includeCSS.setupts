@@ -1,6 +1,6 @@
 page {
 	includeCSS {
-		theme = EXT:theme_bootstrap/Resources/Private/Dyncss/import.less
+		theme = EXT:theme_foundation/Resources/Private/Dyncss/import.scss
 		fontawesome = //maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css
 		fontawesome {
 			external = 1
