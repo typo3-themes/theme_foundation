@@ -4,43 +4,43 @@ themes {
 		responsive {
 			default {
 				medium {
-					label = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.devices.desktop
+					label = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.devices.desktop
 					visibility {
-						default = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
-						inline = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
-						inline-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
-						block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
-						hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
+						default = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
+						inline = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
+						inline-block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
+						block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
+						hidden = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
 					}
 				}
 				small {
-					label = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.devices.tablet
+					label = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.devices.tablet
 					visibility {
-						default = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
-						inline = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
-						inline-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
-						block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
-						hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
+						default = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
+						inline = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
+						inline-block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
+						block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
+						hidden = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
 					}
 				}
 				extrasmall {
-					label = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.devices.mobile
+					label = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.devices.mobile
 					visibility {
-						default = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
-						inline = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
-						inline-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
-						block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
-						hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
+						default = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
+						inline = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
+						inline-block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
+						block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
+						hidden = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
 					}
 				}
 				large {
-					label = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.devices.large
+					label = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.devices.large
 					visibility {
-						default = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
-						inline = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
-						inline-block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
-						block = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
-						hidden = LLL:EXT:theme_bootstrap/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
+						default = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
+						inline = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
+						inline-block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
+						block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
+						hidden = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
 					}
 				}
 			}
