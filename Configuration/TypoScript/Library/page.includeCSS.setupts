@@ -1,0 +1,11 @@
+page {
+	includeCSS {
+		theme = EXT:theme_bootstrap/Resources/Private/Dyncss/import.less
+		fontawesome = //maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css
+		fontawesome {
+			external = 1
+			excludeFromConcatenation = 1
+			disableCompression = 1
+		}
+	}
+}
