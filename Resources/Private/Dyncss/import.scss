@@ -1,5 +1,5 @@
-// Be sure that all Bootstrap variables are defined!
-@import "../../Public/Contrib/Bootstrap/less/variables.less";
+// Be sure that all Foundation variables are defined!
+@import "../../Public/Contrib/Foundation/bower_components/foundation/scss/foundation/_settings.scss";
 
 // Define all overwritable Variables, so that EXT:dyncss
 // is able to overwrite them.
@@ -13,39 +13,39 @@
 @border-radius-base: 0;
 
 // Base URL for images
-@baseurlImage: '/typo3conf/ext/theme_bootstrap/Resources/Public/Images/';
+@baseurlImage: '/typo3conf/ext/theme_foundation/Resources/Public/Images/';
 
 // Base font size for body tag
 @baseFontSize: 11;
 
 
-// Less-Imports
-@import "Library/bootstrap.less";
-@import "Library/bootstrap.equalHeight.less";
-@import "Library/layout.less";
-@import "Library/area.feature.less";
-@import "Library/area.footer.less";
-@import "Library/lib.logo.less";
-@import "Library/lib.menu.sub.less";
-@import "Library/lib.menu.main.less";
-@import "Library/lib.menu.special.less";
-@import "Library/lib.menu.language.less";
-@import "Library/lib.menu.breadcrumb.less";
-@import "Library/partial.socialmedia.less";
+// SCSS-Imports
+@import "Library/foundation.scss";
+@import "Library/foundation.equalHeight.scss";
+@import "Library/layout.scss";
+@import "Library/area.feature.scss";
+@import "Library/area.footer.scss";
+@import "Library/lib.logo.scss";
+@import "Library/lib.menu.sub.scss";
+@import "Library/lib.menu.main.scss";
+@import "Library/lib.menu.special.scss";
+@import "Library/lib.menu.language.scss";
+@import "Library/lib.menu.breadcrumb.scss";
+@import "Library/partial.socialmedia.scss";
 
 // Styles for Elements
-// @import "Library/Elements/Carousel/carouselLarge.less";
-// @import "Library/Elements/Carousel/carouselSmall.less";
-// @import "Library/Elements/Accordion/accordion.less";
-// @import "Library/Elements/Sitemap/sitemap.less";
+ // @import "Library/Elements/Carousel/carouselLarge.scss";
+ // @import "Library/Elements/Carousel/carouselSmall.scss";
+ // @import "Library/Elements/Accordion/accordion.scss";
+ // @import "Library/Elements/Sitemap/sitemap.scss";
 
 // Styles for Variants
-// @import "Library/Variants/framed.less";
-// @import "Library/Variants/GridElements/Container/container-startsite.less";
-// @import "Library/Variants/Header/page-header.less";
-// @import "Library/Variants/Sitemap/sitemap.less";
+// @import "Library/Variants/framed.scss";
+// @import "Library/Variants/GridElements/Container/container-startsite.scss";
+// @import "Library/Variants/Header/page-header.scss";
+// @import "Library/Variants/Sitemap/sitemap.scss";
 
 // Styles for Extensions
-@import "../Extensions/News/Dyncss/import.less";
-@import "../Extensions/Rtehtmlarea/Dyncss/frontend.less";
+@import "../Extensions/News/Dyncss/import.scss";
+@import "../Extensions/Rtehtmlarea/Dyncss/frontend.scss";
 
