@@ -2,7 +2,7 @@
 	 xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
 	<f:layout name="Default" />
 	<f:section name="Default">
-		<!-- theme_bootstrap: Templates/Theme/ContentMenu.html [begin] -->
+		<!-- theme_foundation: Templates/Theme/ContentMenu.html [begin] -->
 
 		<div id="templateContentMenu">
 			<div class="row">
@@ -13,16 +13,15 @@
 					when it switch into mobile view.  -->
 
 				<!-- Firstly the menu column, because Bootstrap not allows to pull/push xs and col-12 -->
-				<div id="contentMenu" class="col-xs-12 col-sm-12 col-md-2 col-md-push-10 col-lg-2 col-lg-push-10">
+				<div id="contentMenu" class="small-12 medium-2 medium-push-10 large-2 large-push-10 columns">
 					<f:render partial="Content/Menu" section="Default" arguments="{_all}" />
 				</div>
-
-				<div id="contentMain" class="col-xs-12 col-sm-12 col-md-10 col-md-pull-2 col-lg-10 col-lg-pull-2">
+				<div id="contentMain" class="small-12 medium-2 medium-pull-10 large-2 large-pull-10 columns">
 					<f:render partial="Content/Main" section="Default" arguments="{_all}" />
 				</div>
 			</div>
 		</div>
 
-		<!-- theme_bootstrap: Templates/Theme/ContentMenu.html [end] -->
+		<!-- theme_foundation: Templates/Theme/ContentMenu.html [end] -->
 	</f:section>
 </div>
