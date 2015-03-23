@@ -3,8 +3,8 @@
     Hint: following expression |my_substition_value| will be replaced when rendering doc.
 
 .. |author| replace:: Thomas Deuling <typo3@coding.ms>, Jo Hasenau <info@cybercraft.de>, Kay Strobach <typo3themes@kay-strobach.de>
-.. |extension_key| replace:: theme_bootstrap
-.. |extension_name| replace:: Theme-Bootstrap
+.. |extension_key| replace:: theme_foundation
+.. |extension_name| replace:: Theme-Foundation
 .. |version| replace:: 1.0.1
 .. |version_typo3| replace:: TYPO3 6.2.x
 .. |time| date:: %Y-%m-%d %H:%M

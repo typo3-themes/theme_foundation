@@ -2,7 +2,7 @@ themes.configuration.footer.email
 ---------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_footer
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_footer
 
 	Property
 		``email``
@@ -20,7 +20,7 @@ themes.configuration.footer.email
 		info@typo3-themes.org
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=footer; type=string; label= Footer E-Mail address

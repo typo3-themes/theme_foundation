@@ -2,7 +2,7 @@ lib.menu.top
 ------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default setup theme_bootstrap cat_menu
+.. container:: table-row dl-horizontal panel panel-default setup theme_foundation cat_menu
 
 	Property
 		``lib.menu.top``
@@ -17,7 +17,7 @@ lib.menu.top
 		Displays the top menu
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 Used constants
 ~~~~~~~~~~~~~~

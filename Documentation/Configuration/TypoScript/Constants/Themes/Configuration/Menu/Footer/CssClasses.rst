@@ -2,7 +2,7 @@ themes.configuration.menu.footer.cssClasses
 -------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_menu
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_menu
 
 	Property
 		``footer.cssClasses``
@@ -20,7 +20,7 @@ themes.configuration.menu.footer.cssClasses
 		nav navbar-nav
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=menu; type=string; label= Menu footer: CSS classes

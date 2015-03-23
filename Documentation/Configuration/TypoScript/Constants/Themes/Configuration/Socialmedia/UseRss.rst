@@ -2,7 +2,7 @@ themes.configuration.socialmedia.useRss
 ---------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_socialmedia
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_socialmedia
 
 	Property
 		``useRss``
@@ -20,7 +20,7 @@ themes.configuration.socialmedia.useRss
 		0
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=socialmedia; type=options[0,1]; label= RSS: Activate?!

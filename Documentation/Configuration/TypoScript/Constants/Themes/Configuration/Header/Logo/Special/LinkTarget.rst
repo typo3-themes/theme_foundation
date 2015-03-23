@@ -2,7 +2,7 @@ themes.configuration.header.logo.special.linkTarget
 ---------------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_header
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_header
 
 	Property
 		``logo.special.linkTarget``
@@ -20,7 +20,7 @@ themes.configuration.header.logo.special.linkTarget
 		_blank
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=header; type=options[_blank,_self]; label= Special-Logo: Link target

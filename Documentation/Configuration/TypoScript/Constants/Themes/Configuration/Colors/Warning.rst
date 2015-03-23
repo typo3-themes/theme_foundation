@@ -2,7 +2,7 @@ themes.configuration.colors.warning
 -----------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_colors
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_colors
 
 	Property
 		``warning``
@@ -20,7 +20,7 @@ themes.configuration.colors.warning
 		#f0ad4e
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=colors; type=color; label= Message: Warning color

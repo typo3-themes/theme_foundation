@@ -1,4 +1,4 @@
-# Remove unused backendlayouts from theme_bootstrap
+# Remove unused backendlayouts from theme_foundation
 #
 # Just delete the backendlayouts which arn't required
 #

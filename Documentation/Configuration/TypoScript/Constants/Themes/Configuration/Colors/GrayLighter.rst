@@ -2,7 +2,7 @@ themes.configuration.colors.grayLighter
 ---------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_colors
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_colors
 
 	Property
 		``grayLighter``
@@ -20,7 +20,7 @@ themes.configuration.colors.grayLighter
 		lighten(#000, 93.5%)
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=colors; type=color; label= Gray lighter color

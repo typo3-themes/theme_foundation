@@ -2,7 +2,7 @@ themes.configuration.header.logo.special.width
 ----------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_header
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_header
 
 	Property
 		``logo.special.width``
@@ -20,7 +20,7 @@ themes.configuration.header.logo.special.width
 		40
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=header; type=int+; label= Special-Logo: Width

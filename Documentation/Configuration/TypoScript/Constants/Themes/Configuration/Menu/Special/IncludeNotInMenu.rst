@@ -2,7 +2,7 @@ themes.configuration.menu.special.includeNotInMenu
 --------------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_menu
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_menu
 
 	Property
 		``special.includeNotInMenu``
@@ -20,7 +20,7 @@ themes.configuration.menu.special.includeNotInMenu
 		0
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=menu; type=options[0,1]; label= Menu special: Include also items which are marked as 'include not in menu'
