@@ -2,7 +2,7 @@
 	 xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
 	<f:layout name="Default" />
 	<f:section name="Default">
-		<!-- theme_bootstrap: Templates/Theme/SidebarContentMenu.html [begin] -->
+		<!-- theme_foundation: Templates/Theme/SidebarContentMenu.html [begin] -->
 
 		<div id="templateSidebarContentMenu">
 			<div class="row">
@@ -13,19 +13,19 @@
 					when it switch into mobile view.  -->
 
 				<!-- Firstly the menu column, because Bootstrap not allows to pull/push xs and col-12 -->
-				<div id="contentMenu" class="col-xs-12 col-sm-12 col-md-2 col-md-push-10 col-lg-2 col-lg-push-10">
+				<div id="contentMenu" class="small-12 medium-2 medium-push-10 large-2 large-push-2 columns">
 					<f:render partial="Content/Menu" section="Default" arguments="{_all}" />
 				</div>
-				<div id="contentMain" class="col-xs-12 col-sm-12 col-md-7 col-md-push-1 col-lg-7 col-lg-push-1">
+				<div id="contentMain" class="small-12 medium-7 medium-push-1 large-7 large-push-1 columns">
 					<f:render partial="Content/Main" section="Default" arguments="{_all}" />
 				</div>
-				<aside id="contentSidebar" class="col-xs-12 col-sm-12 col-md-3 col-md-pull-9 col-lg-3 col-lg-pull-9">
+				<aside id="contentSidebar" class="small-12 medium-3 medium-pull-9 large-3 large-pull-9 columns">
 					<f:render partial="Content/Sidebar" section="Default" arguments="{_all}" />
 				</aside>
 
 			</div>
 		</div>
 
-		<!-- theme_bootstrap: Templates/Theme/SidebarContentMenu.html [end] -->
+		<!-- theme_foundation: Templates/Theme/SidebarContentMenu.html [end] -->
 	</f:section>
 </div>

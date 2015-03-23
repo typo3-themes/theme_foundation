@@ -2,7 +2,7 @@
 	 xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
 	<f:layout name="Default" />
 	<f:section name="Default">
-		<!-- theme_bootstrap: Templates/Theme/MenuContentSidebar.html [begin] -->
+		<!-- theme_foundation: Templates/Theme/MenuContentSidebar.html [begin] -->
 
 		<div id="templateMenuContentSidebar">
 			<div class="row">
@@ -12,18 +12,18 @@
 					The menu column will slide to top and the sidebar to bottom
 					when it switch into mobile view.  -->
 
-				<div id="contentMenu" class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+				<div id="contentMenu" class="small-12 medium-2 large-2 columns">
 					<f:render partial="Content/Menu" section="Default" arguments="{_all}" />
 				</div>
-				<div id="contentMain" class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+				<div id="contentMain" class="small-12 medium-7 large-7 columns">
 					<f:render partial="Content/Main" section="Default" arguments="{_all}" />
 				</div>
-				<aside id="contentSidebar" class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+				<aside id="contentSidebar" class="small-12 medium-3 large-3 columns">
 					<f:render partial="Content/Sidebar" section="Default" arguments="{_all}" />
 				</aside>
 			</div>
 		</div>
 
-		<!-- theme_bootstrap: Templates/Theme/MenuContentSidebar.html [end] -->
+		<!-- theme_foundation: Templates/Theme/MenuContentSidebar.html [end] -->
 	</f:section>
 </div>
