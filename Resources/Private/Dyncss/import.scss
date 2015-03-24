@@ -4,6 +4,7 @@
 @import "../../typo3conf/ext/theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/css/normalize.css";
 @import "../../typo3conf/ext/theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/css/foundation.css";
 
+
 // Define all overwritable Variables, so that EXT:dyncss
 // is able to overwrite them.
 // In case of overwriting the definition value doesnt matter
@@ -53,3 +54,88 @@
 //@import "../Extensions/News/Dyncss/import.scss";
 //@import "../Extensions/Rtehtmlarea/Dyncss/frontend.scss";
 
+#areaFooter {
+  background-color: #555555;
+  margin-top: 20px;
+  border-top: 1px solid #d4d4d4;
+  overflow: auto;
+  padding: 2em 0;
+}
+#areaFooter .row {
+  padding: 0;
+}
+#areaFooter .row .menu-special-wrapper {
+  padding: 0;
+}
+#areaFooter .row .menu-special-wrapper ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  color: #fff;
+  margin-left: 0;
+}
+#areaFooter .row .menu-special-wrapper ul li {
+  width: 20%;
+  float: left;
+
+}
+#areaFooter .row .menu-special-wrapper ul li .menu-heading {
+  font-weight: bold;
+  line-height: 40px;
+  display: inline-block;
+  margin-top: 8px;
+}
+#areaFooter li.first {
+  display: none;
+}
+#areaFooter .row .menu-special-wrapper ul li li {
+  width: 100%;
+  margin-left: 0px;
+}
+#areaFooter .row .menu-special-wrapper ul li li a {
+  line-height: 22px;
+  color: #fff;
+  font-size: 13px;
+}
+#areaFooter .row .menu-footer-wrapper {
+  float: right;
+  padding: 8px 0 0;
+  margin-top: 12px;
+}
+#areaFooter .row .menu-footer-wrapper ul {
+  float: right;
+}
+#areaFooter .row .menu-footer-wrapper ul li a {
+  color: #fff;
+  padding: 0;
+  line-height: 42px;
+  display: block;
+  font-family: FontAwesome;
+  font-size: 22px;
+  height: 40px;
+  text-align: center;
+  width: 40px;
+}
+#areaFooter .row .menu-footer-wrapper ul li.point-1 {
+  background-color: #66cb00;
+}
+#areaFooter .row .menu-footer-wrapper ul li.point-1 a:hover {
+  background-color: #66cb00;
+}
+#areaFooter .row .menu-footer-wrapper ul li.point-2 {
+  background-color: #cb0066;
+}
+#areaFooter .row .menu-footer-wrapper ul li.point-2 a:hover {
+  background-color: #cb0066;
+}
+#areaFooter .row .socialmedia-list-wrapper {
+  margin-top: 12px;
+  float: right;
+  padding-right: 10px;
+  padding-top: 8px;
+}
+#areaFooter .row .footer-line {
+  font-size: 12px;
+  color: #fff;
+  text-align: right;
+}

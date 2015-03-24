@@ -7,7 +7,7 @@
                         <f:image src="{flagIconPath}{entry.flag}.{flagIconFileExtension}"
                                  title="{entry.label}"
                                  alt="{entry.label}"/>
-                        <span>{entry.label}</span>
+                        {entry.label}
                     </a>
                 </f:then>
             </f:if>
@@ -16,7 +16,6 @@
             <f:for each="{menu}" as="entry" iteration="itemIteration">
                 <f:if condition="{entry.active}">
                     <f:else>
-
                         <!-- Page translation available?! -->
                         <f:if condition="{entry.hasTranslation}">
                             <f:then>
