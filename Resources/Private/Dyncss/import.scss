@@ -168,3 +168,15 @@
 .partial-socialmedia-list .socialmedia-list .partial-socialmedia-followGooglePlus a {
   background-color: #d34836;
 }
+
+/* -- ADD layout.pageheader.scss containing:-- */
+.page-header {
+  padding:1em 0;
+}
+.page-header h1 {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.page-header p {
+  margin-bottom: 0;
+}
