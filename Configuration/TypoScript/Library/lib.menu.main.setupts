@@ -12,31 +12,27 @@ lib.menu.main {
 		NO = 1
 		NO {
 			wrapItemAndSub.insertData = 1
-##			wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
-			wrapItemAndSub = <li class="name">|</li>
-##			<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
+			wrapItemAndSub = <li>{$themes.configuration.menu.main.prefixFirstLevel}|</li>
 		}
 		ACT < .NO
 		ACT {
 			wrapItemAndSub.insertData = 1
-			wrapItemAndSub = <li class="name active">|</li>
-##			wrapItemAndSub = <li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
+			wrapItemAndSub = <li class="active">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
 		}
 		IFSUB < .NO
 		IFSUB {
 			wrapItemAndSub.insertData = 1
 			wrapItemAndSub = <li class="has-dropdown not-click">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
-##			wrapItemAndSub = <li class="dropdown state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="dropdown state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="dropdown state-ifsub uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
-			before = <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-			after = <b class="caret"></b></a>
+			before = <a href="#">
+			after = </a>
 			doNotLinkIt = {$themes.configuration.menu.main.doNotLinkFirstLevelPagesWithSubPages}
 		}
 		ACTIFSUB < .ACT
 		ACTIFSUB {
 			wrapItemAndSub.insertData = 1
-			wrapItemAndSub = <li class="dropdown state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="dropdown state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixFirstLevel}|</li>|*|<li class="dropdown state-actifsub active uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
-			before = <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-			after = <b class="caret"></b></a>
+			wrapItemAndSub = <li class="has-dropdown not-click active">{$themes.configuration.menu.main.prefixFirstLevel}|</li>
+			before = <a href="#">
+			after = </a>
 			doNotLinkIt = {$themes.configuration.menu.main.doNotLinkFirstLevelPagesWithSubPages}
 		}
 	}
@@ -48,13 +44,11 @@ lib.menu.main {
 		NO {
 			wrapItemAndSub.insertData = 1
 			wrapItemAndSub = <li>{$themes.configuration.menu.main.prefixSecondLevel}|</li>
-##			wrapItemAndSub = <li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixSecondLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixSecondLevel}|</li>|*|<li class="state-no uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixSecondLevel}|</li>
 		}
 		ACT < .NO
 		ACT {
 			wrapItemAndSub.insertData = 1
 			wrapItemAndSub = <li class="active">{$themes.configuration.menu.main.prefixSecondLevel}|</li>
-##			wrapItemAndSub = <li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} first">{$themes.configuration.menu.main.prefixSecondLevel}|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} middle">{$themes.configuration.menu.main.prefixSecondLevel}|</li>|*|<li class="state-act active uid-{field:uid} point-{register:count_MENUOBJ} last">{$themes.configuration.menu.main.prefixSecondLevel}|</li>
 		}
 	}
 }
