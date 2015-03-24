@@ -19,7 +19,23 @@
             </ul>
             <f:cObject typoscriptObjectPath="lib.menu.main" />
 
+            <ul class="right show-for-large-up">
+                <ul class="dropdown">
 
+                <li class="has-dropdown not-click">
+                    <li class="title back js-generated"><h5><a href="javascript:void(0)">Back</a></h5></li><li class="parent-link hide-for-large-up"><a class="parent-link js-generated" href="#"><f:if condition="{theme:constant(constant: 'themes.languages.available')}">
+							<f:translate key="languageMenu_label" />
+                    </f:if></a></li>
+                    <theme:widget.languageMenu
+                            availableLanguages="{theme:constant(constant: 'themes.languages.available')}"
+                            currentLanguageUid="{theme:constant(constant: 'themes.languages.current.uid')}"
+                            defaultLanguageIsoCodeShort="{theme:constant(constant: 'themes.languages.default.isoCodeShort')}"
+                            defaultLanguageLabel="{theme:constant(constant: 'themes.languages.default.label')}"
+                            defaultLanguageFlag="{theme:constant(constant: 'themes.languages.default.flag')}"
+                            />
+                    </ul>
+                </li>
+            </ul>
         </section>
         </nav>
 	<div id="menuMain" class="navbar navbar-default navbar-fixed-top">
