@@ -17,11 +17,11 @@ themes.configuration.menu.breadcrumb.cssClasses
 		CSS-Classes for the ul-Tag of the breadcrumb menu
 
 	Default
-		list-inline
+		breadcrumbs
 
 	Provided by ext
 		theme_foundation
 
 	Definition
 		# cat=menu; type=string; label= Menu breadcrumb: CSS classes
-		themes.configuration.menu.breadcrumb.cssClasses = list-inline
+		themes.configuration.menu.breadcrumb.cssClasses = breadcrumbs
