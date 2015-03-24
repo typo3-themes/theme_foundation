@@ -1,7 +1,6 @@
 // Be sure that all Foundation variables are defined!
 
-//@import "../../Public/Contrib/Foundation/bower_components/foundation/scss/foundation/settings";
-//@import "../../Public/Contrib/Foundation/bower_components/foundation/scss/foundation";
+@import "../../Public/Contrib/Foundation/bower_components/foundation/scss/foundation/_settings.scss";
 
 // Define all overwritable Variables, so that EXT:dyncss
 // is able to overwrite them.
