@@ -61,7 +61,7 @@
   margin-top: 20px;
   border-top: 1px solid #d4d4d4;
   overflow: auto;
-  padding: 2em 0;
+  padding: 2em;
 }
 #areaFooter .row {
   padding: 0;
@@ -76,11 +76,13 @@
   color: #fff;
   margin-left: 0;
 }
-#areaFooter .row .menu-special-wrapper ul li {
-  width: 20%;
-  float: left;
-
+@media only screen and (min-width: 40.063em) {
+  #areaFooter .row .menu-special-wrapper ul li {
+    width: 20%;
+    float: left;
+  }
 }
+
 #areaFooter .row .menu-special-wrapper ul li .menu-heading {
   font-weight: bold;
   line-height: 40px;
@@ -116,16 +118,16 @@
   width: 40px;
 }
 #areaFooter .row .menu-footer-wrapper ul li.point-1 {
-  background-color: #66cb00;
+  background-color: transparent;
 }
 #areaFooter .row .menu-footer-wrapper ul li.point-1 a:hover {
-  background-color: #66cb00;
+  background-color: transparent;
 }
 #areaFooter .row .menu-footer-wrapper ul li.point-2 {
-  background-color: #cb0066;
+  background-color: transparent;
 }
 #areaFooter .row .menu-footer-wrapper ul li.point-2 a:hover {
-  background-color: #cb0066;
+  background-color: transparent;
 }
 #areaFooter .row .socialmedia-list-wrapper {
   margin-top: 12px;
@@ -143,7 +145,7 @@
 /* -- partial_socialmedia.scss */
 
 .partial-socialmedia-list .socialmedia-list li a {
-  background-color: #f00;
+  background-color: transparent;
   color: #fff;
   display: block;
   font-family: FontAwesome;
@@ -157,16 +159,16 @@
   text-decoration: none;
 }
 .partial-socialmedia-list .socialmedia-list .partial-socialmedia-followTwitter a {
-  background-color: #5ea9dd;
+  background-color: transparent;
 }
 .partial-socialmedia-list .socialmedia-list .partial-socialmedia-followRss a {
-  background-color: #FF6600;
+  background-color: transparent;
 }
 .partial-socialmedia-list .socialmedia-list .partial-socialmedia-followFacebook a {
-  background-color: #4c69ba;
+  background-color: transparent;
 }
 .partial-socialmedia-list .socialmedia-list .partial-socialmedia-followGooglePlus a {
-  background-color: #d34836;
+  background-color: transparent;
 }
 
 /* -- ADD layout.pageheader.scss containing:-- */
