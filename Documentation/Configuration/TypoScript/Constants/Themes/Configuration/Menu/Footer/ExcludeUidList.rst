@@ -2,7 +2,7 @@ themes.configuration.menu.footer.excludeUidList
 -----------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_menu
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_menu
 
 	Property
 		``footer.excludeUidList``
@@ -20,7 +20,7 @@ themes.configuration.menu.footer.excludeUidList
 		none
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=menu; type=string; label= Menu footer: Exclude uid list (12,13,...)

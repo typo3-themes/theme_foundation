@@ -2,7 +2,7 @@ themes.configuration.footer.logo.main.height
 --------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_footer
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_footer
 
 	Property
 		``logo.main.height``
@@ -20,7 +20,7 @@ themes.configuration.footer.logo.main.height
 		89
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=footer; type=int+; label= Footer logo: Height

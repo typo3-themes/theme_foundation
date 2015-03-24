@@ -2,7 +2,7 @@ themes.configuration.menu.special.excludeUidList
 ------------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_menu
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_menu
 
 	Property
 		``special.excludeUidList``
@@ -20,7 +20,7 @@ themes.configuration.menu.special.excludeUidList
 		none
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=menu; type=string; label= Menu special: Exclude uid list (12,13,...)

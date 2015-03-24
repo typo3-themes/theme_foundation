@@ -2,7 +2,7 @@ themes.configuration.menu.sub.prefixFirstLevel
 ----------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_menu
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_menu
 
 	Property
 		``sub.prefixFirstLevel``
@@ -20,7 +20,7 @@ themes.configuration.menu.sub.prefixFirstLevel
 		none
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=menu; type=string; label= Menu sub: Prefix for each menu item in first entry level (for example: <span class="glyphicon glyphicon-chevron-right"></span>)

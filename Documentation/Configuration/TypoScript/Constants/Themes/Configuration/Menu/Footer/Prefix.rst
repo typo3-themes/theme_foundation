@@ -2,7 +2,7 @@ themes.configuration.menu.footer.prefix
 ---------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_menu
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_menu
 
 	Property
 		``footer.prefix``
@@ -20,7 +20,7 @@ themes.configuration.menu.footer.prefix
 		none
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=menu; type=string; label= Menu footer: Prefix for menu items (for example: <span class="glyphicon glyphicon-chevron-right"></span>)

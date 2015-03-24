@@ -2,7 +2,7 @@ themes.configuration.footer.logo.main.linkUid
 ---------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_footer
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_footer
 
 	Property
 		``logo.main.linkUid``
@@ -20,7 +20,7 @@ themes.configuration.footer.logo.main.linkUid
 		{$themes.configuration.pages.startsite}
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=footer; type=int+; label= Footer logo: Link UID footer logo

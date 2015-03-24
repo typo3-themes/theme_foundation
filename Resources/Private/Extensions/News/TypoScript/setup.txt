@@ -15,17 +15,17 @@ plugin.tx_news {
 	view {
 		templateRootPaths {
 			100 = EXT:news/Resources/Private/Templates/
-			300 = EXT:theme_bootstrap/Resources/Private/Extensions/News/Templates/
+			300 = EXT:theme_foundation/Resources/Private/Extensions/News/Templates/
 			500 = {$themes.resourcesPrivatePath}Extensions/News/Templates/
 		}
 		partialRootPaths {
 			100 = EXT:news/Resources/Private/Partials/
-			300 = EXT:theme_bootstrap/Resources/Private/Extensions/News/Partials/
+			300 = EXT:theme_foundation/Resources/Private/Extensions/News/Partials/
 			500 = {$themes.resourcesPrivatePath}Extensions/News/Partials/
 		}
 		layoutRootPaths {
 			100 = EXT:news/Resources/Private/Layouts/
-			300 = EXT:theme_bootstrap/Resources/Private/Extensions/News/Layouts/
+			300 = EXT:theme_foundation/Resources/Private/Extensions/News/Layouts/
 			500 = {$themes.resourcesPrivatePath}Extensions/News/Layouts/
 		}
 	}

@@ -2,7 +2,7 @@ themes.configuration.colors.link
 --------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_colors
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_colors
 
 	Property
 		``link``
@@ -20,7 +20,7 @@ themes.configuration.colors.link
 		#ff8700
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=colors; type=color; label= Basic: Link color

@@ -2,7 +2,7 @@ themes.configuration.menu.main.prefixSecondLevel
 ------------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_menu
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_menu
 
 	Property
 		``main.prefixSecondLevel``
@@ -20,7 +20,7 @@ themes.configuration.menu.main.prefixSecondLevel
 		none
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=menu; type=string; label= Menu main: Prefix for each menu item in second entry level (for example: <span class="glyphicon glyphicon-chevron-right"></span>)

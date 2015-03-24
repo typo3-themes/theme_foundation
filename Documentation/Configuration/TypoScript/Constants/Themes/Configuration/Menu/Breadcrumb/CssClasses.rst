@@ -2,7 +2,7 @@ themes.configuration.menu.breadcrumb.cssClasses
 -----------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_menu
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_menu
 
 	Property
 		``breadcrumb.cssClasses``
@@ -20,7 +20,7 @@ themes.configuration.menu.breadcrumb.cssClasses
 		list-inline
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=menu; type=string; label= Menu breadcrumb: CSS classes

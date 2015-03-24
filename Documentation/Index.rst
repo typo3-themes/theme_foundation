@@ -10,7 +10,7 @@
 .. _start:
 
 =============================
-Theme-Bootstrap Documentation
+Theme-Foundation Documentation
 =============================
 
 

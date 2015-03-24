@@ -2,7 +2,7 @@ themes.configuration.header.logo.main.width
 -------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_header
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_header
 
 	Property
 		``logo.main.width``
@@ -20,7 +20,7 @@ themes.configuration.header.logo.main.width
 		110
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=header; type=int+; label= Header main logo: Width

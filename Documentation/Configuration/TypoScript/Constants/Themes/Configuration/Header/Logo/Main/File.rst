@@ -2,7 +2,7 @@ themes.configuration.header.logo.main.file
 ------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_header
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_header
 
 	Property
 		``logo.main.file``
@@ -17,11 +17,11 @@ themes.configuration.header.logo.main.file
 		Header main logo: Path and filename (fileadmin/.../logo.png)
 
 	Default
-		EXT:theme_bootstrap/Resources/Public/Images/logo.png
+		EXT:theme_foundation/Resources/Public/Images/logo.png
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=header; type=string; label= Header main logo: Path and filename (fileadmin/.../logo.png)
-		themes.configuration.header.logo.main.file = EXT:theme_bootstrap/Resources/Public/Images/logo.png
+		themes.configuration.header.logo.main.file = EXT:theme_foundation/Resources/Public/Images/logo.png

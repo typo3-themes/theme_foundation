@@ -3,13 +3,13 @@
 # customsubcategory=default=Default settings
 
 # cat=meta/default/; type=string; label= Default abstract
-themes.configuration.meta.defaults.abstract = TYPO3 Bootstrap Theme
+themes.configuration.meta.defaults.abstract = TYPO3 Foundation Theme
 
 # cat=meta/default/; type=string; label= Default keywords
-themes.configuration.meta.defaults.keywords = TYPO3, Theme, Bootstrap
+themes.configuration.meta.defaults.keywords = TYPO3, Theme, Foundation
 
 # cat=meta/default/; type=string; label= Default description
-themes.configuration.meta.defaults.description = TYPO3 Bootstrap Theme
+themes.configuration.meta.defaults.description = TYPO3 Foundation Theme
 
 # cat=meta/default/; type=string; label= Default author
 themes.configuration.meta.defaults.author = TYPO3 Themes-Team
@@ -27,4 +27,4 @@ themes.configuration.meta.robots = index,follow
 themes.configuration.meta.revisitAfter = 7 days
 
 # cat=meta//; type=string; label= Application name
-themes.configuration.meta.applicationName = Bootstrap-Theme
+themes.configuration.meta.applicationName = Foundation-Theme

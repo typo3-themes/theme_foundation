@@ -2,7 +2,7 @@ themes.configuration.menu.top.containerPid
 ------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_menu
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_menu
 
 	Property
 		``top.containerPid``
@@ -20,7 +20,7 @@ themes.configuration.menu.top.containerPid
 		none
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=menu; type=string; label= Menu top: Container pid where the menu items are located

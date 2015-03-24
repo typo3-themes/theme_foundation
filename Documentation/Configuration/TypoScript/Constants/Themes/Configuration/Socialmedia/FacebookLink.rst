@@ -2,7 +2,7 @@ themes.configuration.socialmedia.facebookLink
 ---------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_theme
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_theme
 
 	Property
 		``facebookLink``
@@ -20,7 +20,7 @@ themes.configuration.socialmedia.facebookLink
 		https://www.facebook.com/typo3
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=socialmedia; type=string; label= Facebook: Pagelink

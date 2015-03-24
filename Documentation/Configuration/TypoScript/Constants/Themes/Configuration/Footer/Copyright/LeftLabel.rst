@@ -2,7 +2,7 @@ themes.configuration.footer.copyright.leftLabel
 -----------------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_footer
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_footer
 
 	Property
 		``copyright.leftLabel``
@@ -20,7 +20,7 @@ themes.configuration.footer.copyright.leftLabel
 		none
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=footer; type=string; label= Copyright label in left of year

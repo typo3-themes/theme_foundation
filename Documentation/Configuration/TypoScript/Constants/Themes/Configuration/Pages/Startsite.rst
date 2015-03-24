@@ -2,7 +2,7 @@ themes.configuration.pages.startsite
 ------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_pages
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_pages
 
 	Property
 		``startsite``
@@ -20,7 +20,7 @@ themes.configuration.pages.startsite
 		31
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=pages; type=int+; label= Startsite page uid

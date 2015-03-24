@@ -2,7 +2,7 @@ lib.header.logo.main
 --------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default setup theme_bootstrap cat_header
+.. container:: table-row dl-horizontal panel panel-default setup theme_foundation cat_header
 
 	Property
 		``lib.header.logo.main``
@@ -17,7 +17,7 @@ lib.header.logo.main
 		Displays the main header logo
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 Used constants
 ~~~~~~~~~~~~~~

@@ -2,7 +2,7 @@ themes.configuration.footer.address
 -----------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_footer
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_footer
 
 	Property
 		``address``
@@ -20,7 +20,7 @@ themes.configuration.footer.address
 		TYPO3-Themes: Inspire people to share
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=footer; type=string; label= Footer address

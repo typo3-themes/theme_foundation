@@ -1,4 +1,4 @@
-# Breadcrumb with itemscope and Bootstrap classes
+# Breadcrumb with itemscope and Foundation classes
 #
 # Constants:
 # {$themes.configuration.menu.breadcrumb.prefix}

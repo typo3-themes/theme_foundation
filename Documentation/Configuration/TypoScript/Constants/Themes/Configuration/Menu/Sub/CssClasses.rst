@@ -2,7 +2,7 @@ themes.configuration.menu.sub.cssClasses
 ----------------------------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default constants theme_bootstrap cat_menu
+.. container:: table-row dl-horizontal panel panel-default constants theme_foundation cat_menu
 
 	Property
 		``sub.cssClasses``
@@ -20,7 +20,7 @@ themes.configuration.menu.sub.cssClasses
 		nav nav-pills nav-stacked
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 	Definition
 		# cat=menu; type=string; label= Menu sub: CSS classes

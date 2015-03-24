@@ -2,7 +2,7 @@ lib.footer.copyright
 --------------------
 
 .. ..................................
-.. container:: table-row dl-horizontal panel panel-default setup theme_bootstrap cat_footer
+.. container:: table-row dl-horizontal panel panel-default setup theme_foundation cat_footer
 
 	Property
 		``lib.footer.copyright``
@@ -17,7 +17,7 @@ lib.footer.copyright
 		Displays the copyright
 
 	Provided by ext
-		theme_bootstrap
+		theme_foundation
 
 Used constants
 ~~~~~~~~~~~~~~
