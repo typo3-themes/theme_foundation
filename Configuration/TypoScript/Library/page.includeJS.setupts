@@ -9,14 +9,22 @@ page {
 		}
 	}
 	includeJS {
-		bootstrap = http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js
-			bootstrap {
+		foundation = http://cdn.foundation5.zurb.com/foundation.js
+			foundation {
 			external = 1
 			disableCompression = 1
 			excludeFromConcatenation = 1
 		}
-		theme = EXT:theme_bootstrap/Resources/Public/JavaScript/default.js
+		theme = EXT:theme_foundation/Resources/Public/JavaScript/default.js
 		theme {
+			external = 0
+			disableCompression = 1
+			excludeFromConcatenation = 1
+		}
+	}
+	includeJSFooter {
+			foundationjsinit = EXT:theme_foundation/Resources/Public/Contrib/Foundation/js/app.js
+			foundationjsinit {
 			external = 0
 			disableCompression = 1
 			excludeFromConcatenation = 1
