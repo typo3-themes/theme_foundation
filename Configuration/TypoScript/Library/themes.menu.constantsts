@@ -60,7 +60,7 @@ themes.configuration.menu.sub.excludeUidList =
 themes.configuration.menu.sub.includeNotInMenu = 0
 
 # cat=menu/menu_sub/; type=string; label= Menu sub: CSS classes
-themes.configuration.menu.sub.cssClasses = nav nav-pills nav-stacked
+themes.configuration.menu.sub.cssClasses = side-nav
 
 # cat=menu/menu_sub/; type=string; label= Menu sub: Prefix for each menu item in first entry level (for example: <span class="glyphicon glyphicon-chevron-right"></span>)
 themes.configuration.menu.sub.prefixFirstLevel = 
