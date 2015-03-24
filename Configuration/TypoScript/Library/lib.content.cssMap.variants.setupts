@@ -4,7 +4,7 @@ lib.content.cssMap.variants {
 	alert-success = alert-box success
 	alert-info = alert-box info
 	alert-warning = alert-box warning
-	alert-danger = alert-box danger
+	alert-danger = alert-box alert
 	wide-screen = jumbotron
 
 	framed = well
