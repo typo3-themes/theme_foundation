@@ -1,25 +1,26 @@
 {namespace theme=KayStrobach\Themes\ViewHelpers}
 <!-- theme_foundation: Layouts/Default.html [begin] -->
 <div id="layoutDefault">
-    <nav class="top-bar row" data-topbar="" role="navigation">
-        <section class="top-bar-section">
-            <ul class="title-area">
-                <li class="name">
-                    <h1><f:cObject typoscriptObjectPath="lib.header.logo.main" /></h1>
-                </li>
-                <li class="toggle-topbar menu-icon"><a href=""><span>Menu</span></a></li>
-            </ul>
-            <f:cObject typoscriptObjectPath="lib.menu.main" />
-            <theme:widget.languageMenu
-                    availableLanguages="{theme:constant(constant: 'themes.languages.available')}"
-                    currentLanguageUid="{theme:constant(constant: 'themes.languages.current.uid')}"
-                    defaultLanguageIsoCodeShort="{theme:constant(constant: 'themes.languages.default.isoCodeShort')}"
-                    defaultLanguageLabel="{theme:constant(constant: 'themes.languages.default.label')}"
-                    defaultLanguageFlag="{theme:constant(constant: 'themes.languages.default.flag')}"
-                    />
-        </section>
-    </nav>
-	
+    <div div class="sticky contain-to-grid">
+        <nav class="top-bar row" data-topbar="" role="navigation">
+            <section class="top-bar-section">
+                <ul class="title-area">
+                    <li class="name">
+                        <h1><f:cObject typoscriptObjectPath="lib.header.logo.main" /></h1>
+                    </li>
+                    <li class="toggle-topbar menu-icon"><a href=""><span>Menu</span></a></li>
+                </ul>
+                <f:cObject typoscriptObjectPath="lib.menu.main" />
+                <theme:widget.languageMenu
+                        availableLanguages="{theme:constant(constant: 'themes.languages.available')}"
+                        currentLanguageUid="{theme:constant(constant: 'themes.languages.current.uid')}"
+                        defaultLanguageIsoCodeShort="{theme:constant(constant: 'themes.languages.default.isoCodeShort')}"
+                        defaultLanguageLabel="{theme:constant(constant: 'themes.languages.default.label')}"
+                        defaultLanguageFlag="{theme:constant(constant: 'themes.languages.default.flag')}"
+                        />
+            </section>
+        </nav>
+	</div>
 	<div class="container">
 		<section id="areaFeature" class="page-header">
 			<f:cObject typoscriptObjectPath="lib.content.feature" />
