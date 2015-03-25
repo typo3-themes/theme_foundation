@@ -1,0 +1,72 @@
+tt_content.mailform.20 {
+    stdWrap.wrap >
+        layout {
+            form (
+                <form role="form">
+                    <containerWrap />
+                </form>
+            )
+            containerWrap (
+                <section>
+                    <elements />
+                </section>
+            )
+            elementWrap (
+                <div class="row">
+                    <element />
+                </div>
+            )
+            mandatory (
+                <small class="required">
+                    <mandatoryvalue />
+                </small>
+            )
+            error (
+                <small class="error">
+                    <errorvalue />
+                </small>
+            )
+            textline (
+                <label>
+                    <input />
+                </label>
+            )
+            textarea (
+                <div class="ym-fbox-text">
+                    <label />
+                    <textarea />
+                </div>
+            )
+select (
+<div class="ym-fbox-select">
+<label />
+<select>
+<elements />
+</select>
+</div>
+)
+checkbox (
+<div class="ym-fbox-check">
+<input />
+<label />
+</div>
+)
+radio (
+<div class="ym-fbox-check">
+<input />
+<label />
+</div>
+)
+button (
+<div class="ym-fbox-button">
+<input />
+</div>
+)
+            reset (
+                <input class="button alert"/>
+            )
+            submit (
+                <input class="button info" />
+            )
+}
+}
