@@ -17,20 +17,20 @@ Page-data marker
 Menu-data marker
 ================
 
-.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Setup/Menu.rst
+.. include:: ../../theme_foundation/Documentation/Include/TypoScript/Setup/Menu.rst
 
 
 
 Header-data marker
 ==================
 
-.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Setup/Header.rst
+.. include:: ../../theme_foundation/Documentation/Include/TypoScript/Setup/Header.rst
 
 
 
 Footer-data marker
 ==================
 
-.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Setup/Footer.rst
+.. include:: ../../theme_foundation/Documentation/Include/TypoScript/Setup/Footer.rst
 
 

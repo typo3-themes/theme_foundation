@@ -27,7 +27,7 @@ In order to make these constants configurable by the THEMES-Extension, you have 
 
 
 .. include:: ../../themes_gridelements/Documentation/Include/TypoScript/Constants/Theme.rst
-.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Theme.rst
+.. include:: ../../theme_foundation/Documentation/Include/TypoScript/Constants/Theme.rst
 
 
 
@@ -87,7 +87,7 @@ In order to make these constants configurable by the THEMES-Extension, you have 
     All these TypoScript-Constants are located in ``themes.configuration.colors.*``
 
 
-.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Colors.rst
+.. include:: ../../theme_foundation/Documentation/Include/TypoScript/Constants/Colors.rst
 
 
 
@@ -102,7 +102,7 @@ In order to make these constants configurable by the THEMES-Extension, you have 
     All these TypoScript-Constants are located in ``themes.configuration.header.*``
 
 
-.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Header.rst
+.. include:: ../../theme_foundation/Documentation/Include/TypoScript/Constants/Header.rst
 
 
 
@@ -117,7 +117,7 @@ In order to make these constants configurable by the THEMES-Extension, you have 
     All these TypoScript-Constants are located in ``themes.configuration.footer.*``
 
 
-.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Footer.rst
+.. include:: ../../theme_foundation/Documentation/Include/TypoScript/Constants/Footer.rst
 
 
 
@@ -132,4 +132,4 @@ In order to make these constants configurable by the THEMES-Extension, you have 
     All these TypoScript-Constants are located in ``themes.configuration.socialmedia.*``
 
 
-.. include:: ../../theme_bootstrap/Documentation/Include/TypoScript/Constants/Socialmedia.rst
+.. include:: ../../theme_foundation/Documentation/Include/TypoScript/Constants/Socialmedia.rst
