@@ -3,7 +3,7 @@
     li {
       // general styles
       a {
-        background-color: #f00;
+        background-color: transparent;
         color: #fff;
         display: block;
         font-family: FontAwesome;
@@ -19,19 +19,19 @@
     }
     // Twitter style
     .partial-socialmedia-followTwitter a {
-      background-color: #5ea9dd;
+      background-color: transparent;
     }
     // RSS style
     .partial-socialmedia-followRss a {
-      background-color: #FF6600;
+      background-color: transparent;
     }
-    // Faacebook style
+    // Facebook style
     .partial-socialmedia-followFacebook a {
-      background-color: #4c69ba;
+      background-color: transparent;
     }
     // Google+ style
     .partial-socialmedia-followGooglePlus a {
-      background-color: #d34836;
+      background-color: transparent;
     }
   }
 }
