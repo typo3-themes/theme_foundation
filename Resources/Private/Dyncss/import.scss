@@ -1,8 +1,8 @@
 // Be sure that all Foundation variables are defined!
 
 //@import "../../Public/Contrib/Foundation/bower_components/foundation/scss/foundation/_settings.scss";
-@import "../../typo3conf/ext/theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/css/normalize.css";
-@import "../../typo3conf/ext/theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/css/foundation.css";
+//@import "../../typo3conf/ext/theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/css/normalize.css";
+//@import "../../typo3conf/ext/theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/css/foundation.css";
 
 
 // Define all overwritable Variables, so that EXT:dyncss
@@ -24,7 +24,7 @@
 
 
 // SCSS-Imports
-//@import "Library/foundation.scss";
+@import "Library/foundation.scss";
 
 //@import "Library/foundation.equalHeight.scss";
 //@import "Library/layout.scss";
@@ -34,7 +34,7 @@
 //@import "Library/lib.menu.sub.scss";
 //@import "Library/lib.menu.main.scss";
 //@import "Library/lib.menu.special.scss";
-//@import "Library/lib.menu.language.scss";
+@import "Library/lib.menu.language.scss";
 //@import "Library/lib.menu.breadcrumb.scss";
 //@import "Library/partial.socialmedia.scss";
 

@@ -1,0 +1,9 @@
+{namespace theme=KayStrobach\Themes\ViewHelpers}
+<ul id="carousel-{data.uid}" class="orbit" data-orbit data-options="pause_on_hover:true;animation_speed:500;navigation_arrows:true;bullets:true;">
+    <!-- Wrapper for slides -->
+    <f:for each="{data.tx_gridelements_view_children}" as="slide-content" iteration="slide">
+        <li class="{f:if(condition:'{slide.isFirst}',then:' active')}">
+            <f:format.raw>{theme:arrayIndex(object: data, index: 'tx_gridelements_view_child_{slide-content.uid}')}</f:format.raw>
+        </li>
+    </f:for>
+</ul>

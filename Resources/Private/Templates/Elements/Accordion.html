@@ -1,0 +1,16 @@
+{namespace theme=KayStrobach\Themes\ViewHelpers}
+<ul class="accordion" id="accordion-{data.uid}" data-accordion role="tablist">
+    <f:for each="{data.tx_gridelements_view_children}" as="panel" iteration="panelnumber">
+        <li class="accordion-navigation">
+            <a role="tab" aria-controls="panel{data.uid}_{panelnumber.index}" id="panel-heading{data.uid}_{panelnumber.index}" href="#panel{data.uid}_{panelnumber.index}" class="{f:if(condition:'{panelnumber.isFirst}',then:'active', else:'')}">
+                <f:if condition="{panel.header}">
+                    <f:then>{panel.header}</f:then>
+                    <f:else>Accordion {panelnumber.index}</f:else>
+                </f:if>
+            </a>
+            <div role="tabpanel" aria-labelledby="panel-heading{data.uid}_{panelnumber.index}" id="panel{data.uid}_{panelnumber.index}" class="content {f:if(condition:'{panelnumber.isFirst}',then:'active', else:'')}">
+                <f:format.raw>{theme:arrayIndex(object: data, index: 'tx_gridelements_view_child_{panel.uid}')}</f:format.raw>
+            </div>
+        </li>
+    </f:for>
+</ul>
