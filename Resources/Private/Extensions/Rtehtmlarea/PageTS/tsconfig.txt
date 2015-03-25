@@ -1,5 +1,5 @@
 RTE.classes {
-  # Bootrap 
+  # Foundation
   ## Typography
   ### Headings
   h1 {
@@ -30,7 +30,7 @@ RTE.classes {
   text-nowrap {
     name = LLL:EXT:theme_foundation/Resources/Private/Extensions/Rtehtmlarea/Language/locallang.xlf:rte.text-nowrap_label
   }
-  ### Boostrap Transformation classes
+  ### Foundation Transformation classes
   text-lowercase {
     name = LLL:EXT:theme_foundation/Resources/Private/Extensions/Rtehtmlarea/Language/locallang.xlf:rte.text-lowercase_label
     value = text-transform: lowercase;
@@ -58,7 +58,7 @@ RTE.classes {
 RTE.default {
   
   # BE Style File
-  #contentCSS = typo3conf/ext/theme_foundation/Resources/Private/Extensions/Rtehtmlarea/Dyncss/backend.less
+  #contentCSS = typo3conf/ext/theme_foundation/Resources/Private/Extensions/Rtehtmlarea/Dyncss/backend.scss
   contentCSS = typo3conf/ext/theme_foundation/Resources/Public/Extensions/Rtehtmlarea/Stylesheets/backend.css
   
   # Show buttons 

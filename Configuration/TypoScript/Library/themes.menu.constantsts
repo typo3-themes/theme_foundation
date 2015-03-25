@@ -101,7 +101,7 @@ themes.configuration.menu.footer.prefix =
 themes.configuration.menu.footer.containerPid = 0
 
 # cat=menu/menu_footer/; type=string; label= Menu footer: CSS classes
-themes.configuration.menu.footer.cssClasses = list-inline
+themes.configuration.menu.footer.cssClasses = inline-list
 
 # cat=menu/menu_footer/; type=string; label= Menu footer: Divider (for example: <li class="divider"> &#124; </li>, &#124; is equal to a | pipe)
 themes.configuration.menu.footer.divider = <li class="divider"> &#124; </li>

@@ -1,5 +1,5 @@
 .menu-sub-wrapper {
-  border: 1px solid @gray-lighter;
+  border: 1px solid $gray-lighter;
   ul.nav {
     list-style: none;
     li {
@@ -10,7 +10,7 @@
       ul {
         list-style: none;
         padding-left: 14px;
-        border-bottom: 1px solid @gray-lighter;
+        border-bottom: 1px solid $gray-lighter;
         li {
           line-height: 28px;
           a {
@@ -20,7 +20,7 @@
       }
     }
     li.active {
-      background-color: @gray-lighter;
+      background-color: $gray-lighter;
     }
   }
 }

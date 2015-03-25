@@ -1,7 +1,8 @@
 {namespace theme=KayStrobach\Themes\ViewHelpers}
 <!-- theme_foundation:: Layouts/Startsite.html [begin] -->
 <div id="layoutStartsite">
-    <nav class="top-bar" data-topbar="" role="navigation">
+  <div div class="sticky contain-to-grid">
+    <nav class="top-bar row" data-topbar="" role="navigation">
         <section class="top-bar-section">
             <ul class="title-area">
                 <li class="name">
@@ -19,9 +20,9 @@
                             />
         </section>
         </nav>
-
+  </div>
 	<div class="container">
-		<section id="areaFeature" class="page-header">
+		<section id="areaFeature" class="page-header row">
 			<f:cObject typoscriptObjectPath="lib.content.feature" />
 		</section>
 

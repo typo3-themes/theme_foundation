@@ -1,21 +1,24 @@
 #areaFooter {
-  background-color: @gray;
+  background-color: $gray;
   margin-top: 20px;
-  border-top: 1px solid lighten(@gray, 50%);
-  padding-top: 10px;
-  .container {
+  border-top: 1px solid lighten($gray, 50%);
+  overflow: auto;
+  padding: 2em;
+  .row {
     padding: 0;
     .menu-special-wrapper {
       padding: 0;
       ul {
-        list-style: disc outside none;
+        list-style: none;
         padding: 0;
         width: 100%;
         color: #fff;
+        margin-left: 0;
         li {
           width: 20%;
+          float: left;
           .menu-heading {
-            color: @brand-primary;
+            color: $brand-primary;
             font-weight: bold;
             line-height: 40px;
             display: inline-block;
@@ -23,7 +26,7 @@
           }
           li {
             width: 100%;
-            margin-left: 16px;
+            margin-left: 0px;
             a {
               line-height: 22px;
               color: #fff;
