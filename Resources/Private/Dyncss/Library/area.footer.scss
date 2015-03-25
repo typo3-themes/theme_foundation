@@ -1,7 +1,7 @@
 #areaFooter {
-  background-color: @gray;
+  background-color: $gray;
   margin-top: 20px;
-  border-top: 1px solid lighten(@gray, 50%);
+  border-top: 1px solid lighten($gray, 50%);
   padding-top: 10px;
   .container {
     padding: 0;
@@ -15,7 +15,7 @@
         li {
           width: 20%;
           .menu-heading {
-            color: @brand-primary;
+            color: $brand-primary;
             font-weight: bold;
             line-height: 40px;
             display: inline-block;
