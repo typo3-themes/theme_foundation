@@ -2,48 +2,48 @@ themes {
 	content {
 		# Responsive content element settings
 		responsive {
-			default {
-				medium {
-					label = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.devices.desktop
-					visibility {
-						default = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
-						inline = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
-						inline-block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
-						block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
-						hidden = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
-					}
-				}
-				small {
-					label = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.devices.tablet
-					visibility {
-						default = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
-						inline = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
-						inline-block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
-						block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
-						hidden = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
-					}
-				}
-				extrasmall {
-					label = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.devices.mobile
-					visibility {
-						default = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
-						inline = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
-						inline-block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
-						block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
-						hidden = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
-					}
-				}
-				large {
-					label = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.devices.large
-					visibility {
-						default = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
-						inline = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
-						inline-block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
-						block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
-						hidden = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
-					}
-				}
-			}
+#			default {
+#				medium {
+#					label = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.devices.desktop
+#					visibility {
+#						default = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
+#						inline = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
+#						inline-block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
+#						block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
+#						hidden = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
+#					}
+#				}
+#				small {
+#					label = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.devices.tablet
+#					visibility {
+#						default = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
+#						inline = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
+#						inline-block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
+#						block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
+#						hidden = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
+#					}
+#				}
+#				extrasmall {
+#					label = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.devices.mobile
+#					visibility {
+#						default = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
+#						inline = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
+#						inline-block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
+#						block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
+#						hidden = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
+#					}
+#				}
+#				large {
+#					label = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.devices.large
+#					visibility {
+#						default = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.default
+#						inline = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline
+#						inline-block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.inline_block
+#						block = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.block
+#						hidden = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.hidden
+#					}
+#				}
+#			}
 
 			# Special settings for GridElements
 			# Used by ctype gridelements_pi1
