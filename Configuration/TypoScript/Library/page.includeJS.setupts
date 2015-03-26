@@ -9,12 +9,24 @@ page {
 		}
 	}
 	includeJS {
-		foundation = http://cdn.foundation5.zurb.com/foundation.js
-			foundation {
-			external = 1
-			disableCompression = 1
-			excludeFromConcatenation = 1
-		}
+	    # include Foundation js required files
+		foundation             = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.js
+		foundation-abide       = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.abide.js
+		foundation-accordion   = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.accordion.js
+		foundation-alert       = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.alert.js
+		foundation-clearing    = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.clearing.js
+		foundation-dropdown    = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.dropdown.js
+		foundation-equalizer   = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.equalizer.js
+		foundation-interchange = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.joyride.js
+		foundation-magellan    = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.magellan.js
+		foundation-offcanvas   = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.offcanvas.js
+		foundation-orbit       = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.orbit.js
+		foundation-reveal      = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.reveal.js
+		foundation-slider      = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.slider.js
+		foundation-tab         = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.tab.js
+		foundation-tooltip     = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.tooltip.js
+		foundation-topbar      = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/js/foundation/foundation.topbar.js
+
 		theme = EXT:theme_foundation/Resources/Public/JavaScript/default.js
 		theme {
 			external = 0
