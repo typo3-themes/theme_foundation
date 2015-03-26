@@ -1,9 +1,12 @@
 // Be sure that all Foundation variables are defined!
 
-
 @import "../../Public/Contrib/Foundation/bower_components/foundation/scss/foundation/_settings.scss";
+@import "../../Public/Contrib/Foundation/bower_components/foundation/scss/normalize.scss";
+
 //@import "../../typo3conf/ext/theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/css/normalize.css";
 //@import "../../typo3conf/ext/theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/css/foundation.css";
+
+
 
 
 // Define all overwritable Variables, so that EXT:dyncss
@@ -22,6 +25,7 @@ $secondary-color: #F00;
 
 // Base font size for body tag
 //@baseFontSize: 11;
+
 
 
 // SCSS-Imports
