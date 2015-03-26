@@ -1,4 +1,14 @@
-// Be sure that all Foundation variables are defined!
+/*
+Define all Foundation variable names that you wish to access in Themes in:
+    Configuration/TypoScript/Library/plugin.dyncss.foundation.setupts
+
+Define all Foundation variable default color values in:
+    Configuration/TypoScript/Library/themes.colors.constantsts
+
+Define all Foundation variable default font values in:
+    Configuration/TypoScript/Library/themes.fonts.constantsts
+*/
+
 @import "../../Public/Contrib/Foundation/bower_components/foundation/scss/foundation/_settings.scss";
 @import "../../Public/Contrib/Foundation/bower_components/foundation/scss/normalize.scss";
 
