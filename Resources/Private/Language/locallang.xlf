@@ -27,6 +27,12 @@
 
 
 			<!-- Responsive devices labels -->
+			<trans-unit id="content.responsive.devices.showByScreenSize" xml:space="preserve">
+				<source>Show by Screen Size</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.devices.hideForScreenSize" xml:space="preserve">
+				<source>Hide by Screen Size</source>
+			</trans-unit>
 			<trans-unit id="content.responsive.devices.desktop" xml:space="preserve">
 				<source>Desktop</source>
 			</trans-unit>
@@ -39,6 +45,7 @@
 			<trans-unit id="content.responsive.devices.large" xml:space="preserve">
 				<source>Large</source>
 			</trans-unit>
+
 			
 			
 			<!-- Responsive visibility labels -->
@@ -56,6 +63,32 @@
 			</trans-unit>
 			<trans-unit id="content.responsive.visibility.hidden" xml:space="preserve">
 				<source>Hidden</source>
+			</trans-unit>
+
+			<!-- Responsive visibility labels for showByScreenSize and hideForScreenSize -->
+			<trans-unit id="content.responsive.visibility.small-only" xml:space="preserve">
+				<source>small-only</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.visibility.medium-up" xml:space="preserve">
+				<source>medium-up</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.visibility.medium-only" xml:space="preserve">
+				<source>medium-only</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.visibility.large-up" xml:space="preserve">
+				<source>large-up</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.visibility.large-only" xml:space="preserve">
+				<source>large-only</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.visibility.xlarge-up" xml:space="preserve">
+				<source>xlarge-up</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.visibility.xlarge-only" xml:space="preserve">
+				<source>xlarge-only</source>
+			</trans-unit>
+			<trans-unit id="content.responsive.visibility.xxlarge-up" xml:space="preserve">
+				<source>xxlarge-up</source>
 			</trans-unit>
 
 
@@ -101,8 +134,8 @@
 			<trans-unit id="content.behaviour.screenreader_only" xml:space="preserve">
 				<source>Screenreader only</source>
 			</trans-unit>
-			<trans-unit id="content.behaviour.screenreader_only_focusable" xml:space="preserve">
-				<source>Screenreader only (focusable)</source>
+			<trans-unit id="content.behaviour.screenreader_only_hide" xml:space="preserve">
+				<source>Screenreader only - Hide</source>
 			</trans-unit>
 			<trans-unit id="content.behaviour.print_hidden" xml:space="preserve">
 				<source>Hidden for printing</source>

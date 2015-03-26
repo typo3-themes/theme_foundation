@@ -19,8 +19,8 @@ lib.content.cssMap.behaviour {
 
 	container = container
 	fade-in = fade in
-	screenreader-only = sr-only
-	screenreader-only-focusable = sr-only-focusable
+	screenreader-only = show-for-sr
+	screenreader-only-hide = aria-hidden="true"
 	print-hidden = hide-for-print
 	print-visible-block = show-for-print
 	print-visible-inline = visible-print-inline

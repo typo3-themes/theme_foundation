@@ -45,6 +45,39 @@ themes {
 #				}
 #			}
 
+
+			default {
+				showByScreenSize {
+					label = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.devices.showByScreenSize
+					visibility {
+						small-only = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.small-only
+						medium-up = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.medium-up
+						medium-only = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.medium-only
+                        large-up = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.large-up
+						large-only = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.large-only
+						xlarge-up = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.xlarge-up
+						xlarge-only = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.xlarge-only
+						xxlarge-up = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.xxlarge-up
+
+					}
+				}
+				hideForScreenSize {
+					label = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.devices.hideForScreenSize
+					visibility {
+						small-only = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.small-only
+						medium-up = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.medium-up
+						medium-only = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.medium-only
+						large-up = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.large-up
+						large-only = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.large-only
+						xlarge-up = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.xlarge-up
+						xlarge-only = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.xlarge-only
+						xxlarge-up = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.responsive.visibility.xxlarge-up
+
+					}
+				}
+			}
+
+
 			# Special settings for GridElements
 			# Used by ctype gridelements_pi1
 			# Will be merged with default

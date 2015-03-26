@@ -27,4 +27,23 @@ lib.content.cssMap.responsive {
 #	large-block = visible-lg-block
 #	large-hidden = hidden-lg
 
+
+    showByScreenSize-small-only = show-for-small-only
+    showByScreenSize-medium-up = show-for-medium-up
+    showByScreenSize-medium-only = show-for-medium-only
+    showByScreenSize-large-up = show-for-large-up
+    showByScreenSize-large-only = show-for-large-only
+    showByScreenSize-xlarge-up = show-for-xlarge-up
+    showByScreenSize-xlarge-only = show-for-xlarge-only
+    showByScreenSize-xxlarge-up = show-for-xxlarge-up
+
+
+    hideForScreenSize-small-only = hide-for-small-only
+    hideForScreenSize-medium-up = hide-for-medium-up
+    hideForScreenSize-medium-only = hide-for-medium-only
+    hideForScreenSize-large-up = hide-for-large-up
+    hideForScreenSize-large-only = hide-for-large-only
+    hideForScreenSize-xlarge-up = hide-for-xlarge-up
+    hideForScreenSize-xlarge-only = hide-for-xlarge-only
+    hideForScreenSize-xxlarge-up = hide-for-xxlarge-up
 }

@@ -18,7 +18,7 @@ themes {
 				alert-danger = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.variants.alert_danger
 			}
 			# ctype: text
-			text { #jumbotron not in foundation
+			text { $#jumbotron not in foundation
 				#wide-screen = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.variants.wide_screen
 				alert-success = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.variants.alert_success
 				alert-info = LLL:EXT:theme_foundation/Resources/Private/Language/locallang.xlf:content.variants.alert_info
