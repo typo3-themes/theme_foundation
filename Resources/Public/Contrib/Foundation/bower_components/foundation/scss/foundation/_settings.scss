@@ -107,14 +107,14 @@ $smoke       : #EEEEEE;
 $gainsboro   : #DDDDDD;
 $iron        : #CCCCCC;
 $base        : #AAAAAA;
-$aluminum    : #999999;
+$aluminum    : #999999    !default;
 $jumbo       : #888888;
 $monsoon     : #777777;
 $steel       : #666666;
-$charcoal    : #555555;
+$charcoal    : #555555    !default;
 $tuatara     : #444444;
 $oil         : #333333;
-$jet         : #222222;
+$jet         : #222222    !default;
 $black       : #000000;
 
 // We use these as default colors throughout
@@ -123,12 +123,12 @@ $secondary-color: #e7e7e7 !default;
 $alert-color: #f04124     !default;
 $success-color: #43AC6A   !default;
 $warning-color: #f08a24   !default;
-$info-color: #a0d3e8;
+$info-color: #a0d3e8      !default;
 
 // We use these to control various global styles
-$body-bg: $white;
-$body-font-color: $jet;
-$body-font-family: $font-family-sans-serif;
+$body-bg: $white          !default;
+$body-font-color: $jet    !default;
+$body-font-family: $font-family-sans-serif !default;
 $body-font-weight: $font-weight-normal;
 $body-font-style: normal;
 
@@ -142,7 +142,7 @@ $default-float: left;
 $last-child-float: $opposite-direction;
 
 // We use these to make sure border radius matches unless we want it different.
-$global-radius: 3px;
+$global-radius: 3px   !default;
 $global-rounded: 1000px;
 
 // We use these to control inset shadow shiny edges and depressions.
@@ -258,7 +258,7 @@ $code-padding: rem-calc(2) rem-calc(5) rem-calc(1);
 // We use these to style anchors
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
-$anchor-font-color: $primary-color;
+$anchor-font-color: $primary-color !default;
 $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
 
 // We use these to style the <hr> element
