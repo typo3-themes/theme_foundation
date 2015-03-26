@@ -11,16 +11,16 @@
 #############################################
 
 # cat=colors/general/; type=color; label= Basic: Primary color
-themes.configuration.colors.primary = #FF8700
+themes.configuration.colors.primary = #008CBA
 
 # cat=colors/general/; type=color; label= Basic: Secondary color
-themes.configuration.colors.secondary = #26A345
+themes.configuration.colors.secondary = #e7e7e7
 
 # cat=colors/general/; type=color; label= Basic: Link color
-themes.configuration.colors.link = #FF8700
+themes.configuration.colors.link = #008CBA
 
 # cat=colors/general/; type=color; label= Basic: Text color
-themes.configuration.colors.text = #000
+themes.configuration.colors.text = #222222
 
 
 
@@ -48,13 +48,13 @@ themes.configuration.colors.grayLighter = #EEEEEE
 #############################################
 
 # cat=colors/message/; type=color; label= Message: Success color
-themes.configuration.colors.success = #5CB85C
+themes.configuration.colors.success = #43AC6A
 
 # cat=colors/message/; type=color; label= Message: Notice and information color
-themes.configuration.colors.information = #5BC0DE
+themes.configuration.colors.information = #a0d3e8
 
 # cat=colors/message/; type=color; label= Message: Warning color
-themes.configuration.colors.warning = #F0AD4E
+themes.configuration.colors.warning = #f08a24
 
 # cat=colors/message/; type=color; label= Message: Error color
-themes.configuration.colors.error = #D9534F
+themes.configuration.colors.error = #f04124
