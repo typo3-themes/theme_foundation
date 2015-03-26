@@ -1,11 +1,2 @@
-
-
-# customsubcategory=400=ScrollSpy
-
 themes.configuration.foundation.javascript {
-	# cat=foundation/400/gray-base; type=string; label=ScrollSpy: target
-	scrollspy.target = body
-	# cat=foundation/400/gray-darker; type=int+; label=ScrollSpy: offset
-	scrollspy.offset = 0
-
 }

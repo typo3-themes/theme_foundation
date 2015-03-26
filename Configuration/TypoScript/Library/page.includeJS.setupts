@@ -35,11 +35,17 @@ page {
 		}
 	}
 	includeJSFooter {
-			foundationjsinit = EXT:theme_foundation/Resources/Public/Contrib/Foundation/js/app.js
-			foundationjsinit {
+		foundationjsinit = EXT:theme_foundation/Resources/Public/Contrib/Foundation/js/app.js
+		foundationjsinit {
 			external = 0
 			disableCompression = 1
 			excludeFromConcatenation = 1
-		}
+			}
+		fastclick = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/fastclick/lib/fastclick.js
+		fastclick {
+			external = 0
+			disableCompression = 1
+			excludeFromConcatenation = 1
+			}
 	}
 }
