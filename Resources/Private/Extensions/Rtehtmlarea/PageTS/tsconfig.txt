@@ -58,8 +58,8 @@ RTE.classes {
 RTE.default {
   
   # BE Style File
-  #contentCSS = typo3conf/ext/theme_foundation/Resources/Private/Extensions/Rtehtmlarea/Dyncss/backend.scss
-  contentCSS = typo3conf/ext/theme_foundation/Resources/Public/Extensions/Rtehtmlarea/Stylesheets/backend.css
+  contentCSS = typo3conf/ext/theme_foundation/Resources/Private/Extensions/Rtehtmlarea/Dyncss/backend.scss
+  #contentCSS = typo3conf/ext/theme_foundation/Resources/Public/Extensions/Rtehtmlarea/Stylesheets/backend.css
   
   # Show buttons 
   ## wildcard is * 
