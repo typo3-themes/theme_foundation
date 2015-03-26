@@ -6,3 +6,6 @@ themes.configuration.font.fontFilePath =
 
 # cat=font; type=string; label=Font: Icon-Font path
 themes.configuration.font.icon.fontFilePath = /typo3conf/ext/theme_foundation/Resources/Public/Contrib/Foundation/fonts/
+
+# cat=font; type=string; label=Font: Body font family
+themes.configuration.body.fontfamily = "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif
