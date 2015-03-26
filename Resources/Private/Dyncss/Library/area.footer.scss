@@ -15,8 +15,8 @@
         color: #fff;
         margin-left: 0;
         li {
-          width: 20%;
-          float: left;
+          width: 100%;
+
           .menu-heading {
             color: $brand-primary;
             font-weight: bold;
@@ -57,15 +57,15 @@
         }
         li.point-1 {
           a:hover {
-            background-color: #66cb00;
+            background-color: transparent;
           }
-          background-color: #66cb00;
+          background-color: transparent;
         }
         li.point-2 {
           a:hover {
-            background-color: #cb0066;
+            background-color: transparent;
           }
-          background-color: #cb0066;
+          background-color: transparent;
         }
       }
     }
@@ -81,5 +81,12 @@
       color: #fff;
       text-align: right;
     }
+  }
+}
+
+@media only screen and (min-width: 40.063em) {
+  #areaFooter .row .menu-special-wrapper ul li {
+    width: 20%;
+    float: left;
   }
 }
