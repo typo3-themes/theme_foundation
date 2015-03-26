@@ -21,6 +21,7 @@ lib.menu.breadcrumb {
 			noBlur = 1
 			NO {
 				stdWrap.htmlSpecialChars = 1
+				stdWrap.field = subtitle // title
 				doNotLinkIt = |*| 0 |*| 1
 				linkWrap = <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">|</li> |*| <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><span class="divider">{$themes.configuration.menu.breadcrumb.divider}</span>|</li> |*| <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="current"><span class="divider">{$themes.configuration.menu.breadcrumb.divider}</span>|</li>
 				ATagParams = itemprop="url" title="{field:subtitle//field:title}"

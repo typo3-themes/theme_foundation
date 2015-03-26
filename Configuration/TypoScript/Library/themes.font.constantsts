@@ -9,3 +9,9 @@ themes.configuration.font.icon.fontFilePath = /typo3conf/ext/theme_foundation/Re
 
 # cat=font; type=string; label=Font: Body font family
 themes.configuration.body.fontfamily = "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif
+
+# cat=font; type=string; label=Font: Header font family
+themes.configuration.body.headerfontfamily = "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif
+
+# cat=font; type=string; label=Font: Monospace font family
+themes.configuration.body.monospacefontfamily = Consolas, "Liberation Mono", Courier, monospace

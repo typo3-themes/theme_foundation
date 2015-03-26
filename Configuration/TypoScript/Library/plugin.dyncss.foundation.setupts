@@ -33,5 +33,9 @@ plugin.tx_dyncss.overrides {
 	icon-font-path.value = '{$themes.configuration.font.icon.fontFilePath}'
 	body-font-family = TEXT
 	body-font-family.value = {$themes.configuration.body.fontfamily}
+	header-font-family = TEXT
+	header-font-family.value = {$themes.configuration.body.headerfontfamily}
+	font-family-monospace = TEXT
+	font-family-monospace.value = {$themes.configuration.body.monospacefontfamily}
 
 }
