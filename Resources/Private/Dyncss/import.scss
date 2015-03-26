@@ -2,20 +2,24 @@
 
 @import "../../Public/Contrib/Foundation/bower_components/foundation/scss/foundation/_settings.scss";
 @import "../../Public/Contrib/Foundation/bower_components/foundation/scss/normalize.scss";
+
+//@import "../../typo3conf/ext/theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/css/normalize.css";
 //@import "../../typo3conf/ext/theme_foundation/Resources/Public/Contrib/Foundation/bower_components/foundation/css/foundation.css";
+
+
 
 
 // Define all overwritable Variables, so that EXT:dyncss
 // is able to overwrite them.
 // In case of overwriting the definition value doesnt matter
-//@brand-primary: #ff8700;
-//@brand-secondary: #FFFFFF;
+$primary-color: #ff8700;
+$secondary-color: #F00;
 //@navbar-default-bg: @gray-dark;
 //@navbar-default-link-color: @gray-lighter;
 //@navbar-default-link-hover-color: @brand-primary;
 //@navbar-default-link-active-color: @brand-primary;
 //@border-radius-base: 0;
-
+//$body-bg: #000;
 // Base URL for images
 //@baseurlImage: '/typo3conf/ext/theme_foundation/Resources/Public/Images/';
 
@@ -23,20 +27,20 @@
 //@baseFontSize: 11;
 
 
+
 // SCSS-Imports
 @import "Library/foundation.scss";
-
-//@import "Library/foundation.equalHeight.scss";
-//@import "Library/layout.scss";
-//@import "Library/area.feature.scss";
-//@import "Library/area.footer.scss";
-//@import "Library/lib.logo.scss";
-//@import "Library/lib.menu.sub.scss";
-//@import "Library/lib.menu.main.scss";
-//@import "Library/lib.menu.special.scss";
+@import "Library/foundation.equalHeight.scss";
+@import "Library/layout.scss";
+@import "Library/area.feature.scss";
+@import "Library/area.footer.scss";
+@import "Library/lib.logo.scss";
+@import "Library/lib.menu.sub.scss";
+@import "Library/lib.menu.main.scss";
+@import "Library/lib.menu.special.scss";
 @import "Library/lib.menu.language.scss";
-//@import "Library/lib.menu.breadcrumb.scss";
-//@import "Library/partial.socialmedia.scss";
+@import "Library/lib.menu.breadcrumb.scss";
+@import "Library/partial.socialmedia.scss";
 
 // Styles for Elements
  // @import "Library/Elements/Carousel/carouselLarge.scss";
@@ -55,121 +59,6 @@
 //@import "../Extensions/Rtehtmlarea/Dyncss/frontend.scss";
 
 
-/* -- area.footer.scss */
-#areaFooter {
-  background-color: #555555;
-  margin-top: 20px;
-  border-top: 1px solid #d4d4d4;
-  overflow: auto;
-  padding: 2em;
-}
-#areaFooter .row {
-  padding: 0;
-}
-#areaFooter .row .menu-special-wrapper {
-  padding: 0;
-}
-#areaFooter .row .menu-special-wrapper ul {
-  list-style: none;
-  padding: 0;
-  width: 100%;
-  color: #fff;
-  margin-left: 0;
-}
-@media only screen and (min-width: 40.063em) {
-  #areaFooter .row .menu-special-wrapper ul li {
-    width: 20%;
-    float: left;
-  }
-}
-
-#areaFooter .row .menu-special-wrapper ul li .menu-heading {
-  font-weight: bold;
-  line-height: 40px;
-  display: inline-block;
-  margin-top: 8px;
-}
-#areaFooter .row .menu-special-wrapper ul li li {
-  width: 100%;
-  margin-left: 0px;
-}
-#areaFooter .row .menu-special-wrapper ul li li a {
-  line-height: 22px;
-  color: #fff;
-  font-size: 13px;
-}
-#areaFooter .row .menu-footer-wrapper {
-  float: right;
-  padding: 8px 0 0;
-  margin-top: 12px;
-}
-#areaFooter .row .menu-footer-wrapper ul {
-  float: right;
-}
-#areaFooter .row .menu-footer-wrapper ul li a {
-  color: #fff;
-  padding: 0;
-  line-height: 42px;
-  display: block;
-  font-family: FontAwesome;
-  font-size: 22px;
-  height: 40px;
-  text-align: center;
-  width: 40px;
-}
-#areaFooter .row .menu-footer-wrapper ul li.point-1 {
-  background-color: transparent;
-}
-#areaFooter .row .menu-footer-wrapper ul li.point-1 a:hover {
-  background-color: transparent;
-}
-#areaFooter .row .menu-footer-wrapper ul li.point-2 {
-  background-color: transparent;
-}
-#areaFooter .row .menu-footer-wrapper ul li.point-2 a:hover {
-  background-color: transparent;
-}
-#areaFooter .row .socialmedia-list-wrapper {
-  margin-top: 12px;
-  float: right;
-  padding-right: 10px;
-  padding-top: 8px;
-}
-#areaFooter .row .footer-line {
-  font-size: 12px;
-  color: #fff;
-  text-align: right;
-}
-
-
-/* -- partial_socialmedia.scss */
-
-.partial-socialmedia-list .socialmedia-list li a {
-  background-color: transparent;
-  color: #fff;
-  display: block;
-  font-family: FontAwesome;
-  font-size: 24px;
-  height: 40px;
-  line-height: 42px;
-  text-align: center;
-  width: 40px;
-}
-.partial-socialmedia-list .socialmedia-list li a:hover {
-  text-decoration: none;
-}
-.partial-socialmedia-list .socialmedia-list .partial-socialmedia-followTwitter a {
-  background-color: transparent;
-}
-.partial-socialmedia-list .socialmedia-list .partial-socialmedia-followRss a {
-  background-color: transparent;
-}
-.partial-socialmedia-list .socialmedia-list .partial-socialmedia-followFacebook a {
-  background-color: transparent;
-}
-.partial-socialmedia-list .socialmedia-list .partial-socialmedia-followGooglePlus a {
-  background-color: transparent;
-}
 
 /* -- ADD layout.pageheader.scss containing:-- */
 .page-header {
