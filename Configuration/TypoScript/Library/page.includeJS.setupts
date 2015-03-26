@@ -7,6 +7,12 @@ page {
 			disableCompression = 1
 			excludeFromConcatenation = 1
 		}
+		jquery = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/jquery/dist/jquery.min.js
+		jquery {
+			external = 0
+			disableCompression = 1
+			excludeFromConcatenation = 1
+		}
 	}
 	includeJS {
 	    # include Foundation js required files
@@ -41,11 +47,13 @@ page {
 			disableCompression = 1
 			excludeFromConcatenation = 1
 			}
+
 		fastclick = EXT:theme_foundation/Resources/Public/Contrib/Foundation/bower_components/fastclick/lib/fastclick.js
 		fastclick {
 			external = 0
 			disableCompression = 1
 			excludeFromConcatenation = 1
 			}
+
 	}
 }
