@@ -1,16 +1,11 @@
 {namespace theme=KayStrobach\Themes\ViewHelpers}
-<ul class="tabs" data-tab role="tablist">
+<ul class="{current}" data-tab role="tablist">
     <f:for each="{data.tx_gridelements_view_children}" as="tab" iteration="tabnumber">
         <li class="tab-title {f:if(condition:'{tabnumber.isFirst}', then:'active')}" role="presentation">
-            <a href="#tab-content-{data.uid}-{tab.uid}" tabindex="0" aria-selected="{f:if(condition:'{tabnumber.isFirst}', then:'true', else: 'false')}" role="tab">{tab.header}</a>
+            <a href="#tab-content-{tab.uid}" tabindex="0" aria-selected="{f:if(condition:'{tabnumber.isFirst}', then:'true', else: 'false')}" role="tab">{tab.header}</a>
         </li>
     </f:for>
 </ul>
 <div class="tabs-content">
-    <f:format.raw>{data.tx_gridelements_view_columns.0}</f:format.raw>
-   <!-- <f:for each="{data.tx_gridelements_view_children}" as="tab" iteration="tabnumber">
-        <section role="tabpanel" aria-hidden="{f:if(condition:'{tabnumber.isFirst}', then:'false', else: 'true')}" class="content {f:if(condition:'{tabnumber.isFirst}', then:'active')}" id="tabcontent{data.uid}-{tab.uid}">
-            <f:format.raw>{data.tx_gridelements_view_columns.0}</f:format.raw>
-        </section>
-    </f:for>-->
+	<f:format.raw>{data.tx_gridelements_view_columns.0}</f:format.raw>
 </div>

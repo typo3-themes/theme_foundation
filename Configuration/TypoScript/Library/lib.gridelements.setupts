@@ -1,15 +1,11 @@
 tt_content.gridelements_pi1.20.10.setup {
 	accordion {
-        cObject.file = EXT:theme_foundation/Resources/Private/Templates/Elements/Accordion.html
+		cObject.file = EXT:theme_foundation/Resources/Private/Templates/Elements/Accordion.html
 	}
 	carousel {
 		cObject.file = EXT:theme_foundation/Resources/Private/Templates/Elements/Carousel.html
 	}
 	tabs {
 		cObject.file = EXT:theme_foundation/Resources/Private/Templates/Elements/Tabs.html
-		columns.0 {
-        	renderObj =< tt_content
-        	renderObj.stdWrap >
-        }
 	}
 }

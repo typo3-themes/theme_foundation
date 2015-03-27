@@ -1,21 +1,4 @@
 lib.content.cssMap.behaviour {
-	#behaviour-container = container
-	#behaviour-table-responsive = table-responsive
-	#accordion {
-	#	behaviour-accordion-first-open = accordion-first-open
-	#}
-	#tabs {
-	#	navigation {
-	#		behaviour-navigation = nav
-	#		behaviour-navigation-pills = nav-pills
-	#		behaviour-navigation-tabs = nav-tabs
-	#	}
-	#	panes {
-	#		behaviour-tab-pane = tab-pane
-	#		behaviour-fade-in = fade in
-	#		behaviour-active = active
-	#	}
-	#}
 
 	container = container
 	fade-in = fade in
@@ -33,13 +16,11 @@ lib.content.cssMap.behaviour {
 	}
 	tabs {
 		navigation {
-			navigation = nav
-			navigation-pills = tabs pill
-			navigation-tabs = tabs
+			navigation = tabs
+			navigation-vertical = tabs vertical
 		}
 		panes {
-			tab-pane = tab-pane
-			fade-in = fade in
+			tab-pane = content
 			active = active
 		}
 	}
