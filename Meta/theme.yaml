@@ -51,19 +51,19 @@ screenshots:
 # Name of the authors (optional, multiple possible)
 authors:
   -
-    name           : Thomas Deuling
+    name           : Soren Madsen
     email          : typo3@coding.ms
     company        : coding.ms
     companyLogo    :
     companyWebsite : www.coding.ms
   -
-    name           : Kay Strobach
-    email          : typo3themes@kay-strobach.de
-    company        : Kay Strobach
+    name           : Radu Mogos
+    email          : radu.mogos@pixelplant.ch
+    company        : Radu Mogos
     companyLogo    :
-    companyWebsite : www.kay-strobach.de
+    companyWebsite : www.pixelplant.ch
   -
-    name           : Jo Hasenau
+    name           : Raphael Splivalo
     email          : info@cybercraft.de
     company        : Cybercraft
     companyLogo    :
