@@ -1,0 +1,29 @@
+/* Font Primary variables (body) */
+$useFontPrimaryFromCdn: 1 !default;
+$fontPrimaryCdnUrl: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro' !default;
+$fontPrimaryName: 'Source Sans Pro' !default;
+$fontPrimaryFilePath: '' !default;
+$fontPrimaryFileEot: '' !default;
+$fontPrimaryFileSvg: '' !default;
+$fontPrimaryFileTtf: '' !default;
+$fontPrimaryFileWoff: '' !default;
+
+/* Font secondary variables (headers) */
+$useFontSecondaryFromCdn: 0 !default;
+$fontSecondaryCdnUrl: 'http://fonts.googleapis.com/css?family=Oswald:400,700&subset=latin,latin-ext' !default;
+$fontSecondaryName: 'Oswald' !default;
+$fontSecondaryFilePath: '' !default;
+$fontSecondaryFileEot: '' !default;
+$fontSecondaryFileSvg: '' !default;
+$fontSecondaryFileTtf: '' !default;
+$fontSecondaryFileWoff: '' !default;
+
+@if $useFontPrimaryFromCdn == 1 {
+  @import url($fontPrimaryCdnUrl);
+  $body-font-family: $fontPrimaryName;
+}
+
+@if $useFontSecondaryFromCdn == 1 {
+  @import url($fontSecondaryCdnUrl);
+  $header-font-family: $fontSecondaryName;
+}

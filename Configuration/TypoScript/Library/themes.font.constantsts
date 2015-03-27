@@ -4,14 +4,32 @@
 themes.configuration.font.fontFilePath = 
 
 
-# cat=font; type=string; label=Font: Icon-Font path
+# cat=font,expert//; type=string; label=Font: Icon-Font path
 themes.configuration.font.icon.fontFilePath = /typo3conf/ext/theme_foundation/Resources/Public/Contrib/Foundation/fonts/
 
-# cat=font; type=string; label=Font: Body font family
+# cat=font,basic/2/; type=string; label=Font: Body font family
 themes.configuration.body.fontfamily = "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif
 
-# cat=font; type=string; label=Font: Header font family
+# cat=font,basic/3/; type=string; label=Font: Header font family
 themes.configuration.body.headerfontfamily = "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif
 
-# cat=font; type=string; label=Font: Monospace font family
+# cat=font,advanced/4/; type=string; label=Font: Monospace font family
 themes.configuration.body.monospacefontfamily = Consolas, "Liberation Mono", Courier, monospace
+
+# cat=font,advanced/5/; type=options[0,1]; label= Font-Primary (body): Use font from CDN?
+themes.configuration.font.primary.useFontFromCdn = 1
+
+# cat=font,advanced/5/; type=string; label= Font-Primary (body): CDN-Fonts URL (Google-Webfonts, ...)
+themes.configuration.font.primary.fontCdnUrl = http://fonts.googleapis.com/css?family=Source+Sans+Pro
+
+# cat=font,advanced/5/; type=string; label= Font-Primary (body): Font Name
+themes.configuration.font.primary.fontName = Source Sans Pro
+
+# cat=font,advanced/5/; type=options[0,1]; label= Font-Secondary (headers): Use font from CDN?
+themes.configuration.font.secondary.useFontFromCdn = 1
+
+# cat=font,advanced/5/; type=string; label= Font-Secondary (headers): CDN-Fonts URL (Google-Webfonts, ...)
+themes.configuration.font.secondary.fontCdnUrl = http://fonts.googleapis.com/css?family=Oswald:400,700&subset=latin,latin-ext
+
+# cat=font,advanced/5/; type=string; label= Font-Secondary (headers): Font Name
+themes.configuration.font.secondary.fontName = Oswald

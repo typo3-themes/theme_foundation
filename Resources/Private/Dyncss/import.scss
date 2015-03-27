@@ -13,6 +13,7 @@ Define all Foundation variable default font values in:
 @import "../../Public/Contrib/Foundation/bower_components/foundation/scss/normalize.scss";
 
 // SCSS-Imports
+@import "Library/typography.webfonts.scss";
 @import "Library/foundation.scss";
 @import "Library/foundation.equalHeight.scss";
 @import "Library/layout.scss";
@@ -41,4 +42,3 @@ Define all Foundation variable default font values in:
 // Styles for Extensions
 //@import "../Extensions/News/Dyncss/import.scss";
 @import "../Extensions/Rtehtmlarea/Dyncss/frontend.scss";
-

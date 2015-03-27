@@ -38,4 +38,17 @@ plugin.tx_dyncss.overrides {
 	font-family-monospace = TEXT
 	font-family-monospace.value = {$themes.configuration.body.monospacefontfamily}
 
+	useFontPrimaryFromCdn = TEXT
+	useFontPrimaryFromCdn.value = {$themes.configuration.font.primary.useFontFromCdn}
+	fontPrimaryCdnUrl = TEXT
+	fontPrimaryCdnUrl.value = '{$themes.configuration.font.primary.fontCdnUrl}'
+	fontPrimaryName = TEXT
+	fontPrimaryName.value = '{$themes.configuration.font.primary.fontName}'
+
+	useFontSecondaryFromCdn = TEXT
+	useFontSecondaryFromCdn.value = {$themes.configuration.font.secondary.useFontFromCdn}
+	fontSecondaryCdnUrl = TEXT
+	fontSecondaryCdnUrl.value = '{$themes.configuration.font.secondary.fontCdnUrl}'
+	fontSecondaryName = TEXT
+	fontSecondaryName.value = '{$themes.configuration.font.secondary.fontName}'
 }
