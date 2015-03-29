@@ -2,10 +2,12 @@
 title            : Minimalistic theme for reference purposes
 version          : 1.0.2
 description      : |
-  This is the description of the theme.
-  With the starting pipe it can contain multiple lines.
+  Base theme built with Zurb Foundation 5
+  – http://foundation.zurb.com
 
-  The newlines in this description will be preserved.
+  Use as is – or use as parent theme for your
+  Foundation based projects.
+
 
 parentTheme:
     name: themes_gridelements
@@ -27,6 +29,7 @@ demoLocation:
 keywords:
   - html5boilerplate
   - responsive design
+  - Foundation
 
 # Constants categories which are used for constants in this theme
 constants:
@@ -51,11 +54,11 @@ screenshots:
 # Name of the authors (optional, multiple possible)
 authors:
   -
-    name           : Soren Madsen
-    email          : typo3@coding.ms
-    company        : coding.ms
+    name           : Søren Madsen
+    email          : sma@au.dk
+    company        : Aarhus University
     companyLogo    :
-    companyWebsite : www.coding.ms
+    companyWebsite : www.au.dk
   -
     name           : Radu Mogos
     email          : radu.mogos@pixelplant.ch
